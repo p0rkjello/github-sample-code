@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "bounds-cloud-vm"
+    Name = "bounds-cloud-vm-change"
     Env = "Dev"
   }
 }
